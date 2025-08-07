@@ -386,7 +386,8 @@ const SignatureEvents = () => {
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.6 }}
                 >
-                  <motion.button
+                  <motion.a
+                  href="/memberships"
                     whileHover={{
                       scale: 1.05,
                       boxShadow: "0 5px 15px rgba(255, 200, 87, 0.4)"
@@ -395,8 +396,9 @@ const SignatureEvents = () => {
                     className="bg-[#FFC857] text-[#0A2463] px-8 py-3 rounded-sm font-bold"
                   >
                     Register Now
-                  </motion.button>
-                  <motion.button
+                  </motion.a>
+                  <motion.a
+                  href="/events"
                     whileHover={{
                       backgroundColor: "rgba(10, 36, 99, 0.05)",
                       scale: 1.02
@@ -405,7 +407,7 @@ const SignatureEvents = () => {
                     className="border border-[#0A2463] text-[#0A2463] px-8 py-3 rounded-sm font-bold"
                   >
                     Learn More
-                  </motion.button>
+                  </motion.a>
                 </motion.div>
               </motion.div>
             </motion.div>

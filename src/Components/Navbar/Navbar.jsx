@@ -14,7 +14,9 @@ import {
   Users,
   Phone,
   MapPin,
-  Clock
+  Clock,
+  Globe,
+  Camera
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { LogoWhite, LogoGold } from "../../assets";
@@ -56,9 +58,9 @@ const Navbar = () => {
 
   const navItems = [
     { label: "Home", path: "/", icon: <Home className="h-4 w-4 mr-2" /> },
-    { 
-      label: "About", 
-      path: "/about", 
+    {
+      label: "About",
+      path: "/about",
       icon: <Users className="h-4 w-4 mr-2" />,
       subItems: [
         { name: "Our Story", href: "/about/story" },
@@ -66,6 +68,7 @@ const Navbar = () => {
         { name: "Awards", href: "/about/awards" }
       ]
     },
+  
     {
       label: "Sports",
       path: "/sports",
@@ -89,6 +92,17 @@ const Navbar = () => {
       ]
     },
     {
+    label: "Gallery",
+    path: "/gallery",
+    icon: <Camera className="h-4 w-4 mr-2" />, // Import Camera from lucide-react
+    subItems: [
+      { name: "Sports Facilities", href: "/gallery/sports" },
+      { name: "Luxury Amenities", href: "/gallery/amenities" },
+      { name: "Events", href: "/gallery/events" },
+      { name: "Member Moments", href: "/gallery/members" }
+    ]
+  },
+    {
       label: "Membership",
       path: "/membership",
       icon: <Users className="h-4 w-4 mr-2" />,
@@ -96,6 +110,17 @@ const Navbar = () => {
         { name: "Individual", href: "/membership/individual" },
         { name: "Family", href: "/membership/family" },
         { name: "Corporate", href: "/membership/corporate" }
+      ]
+    },
+    {
+      label: "Affiliations",
+      path: "/affiliations",
+      icon: <Globe className="h-4 w-4 mr-2" />, // Using Globe icon from lucide-react
+      subItems: [
+        { name: "Sports Associations", href: "/affiliations/sports" },
+        { name: "Luxury Partners", href: "/affiliations/luxury" },
+        { name: "Health & Wellness", href: "/affiliations/wellness" },
+        { name: "Corporate Alliances", href: "/affiliations/corporate" }
       ]
     },
     {

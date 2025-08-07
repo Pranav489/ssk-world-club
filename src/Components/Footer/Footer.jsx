@@ -49,17 +49,17 @@ const Footer = () => {
   const contactInfo = [
     {
       icon: <MapPin className="h-5 w-5 text-[#FFC857]" />,
-      text: "123 Sports Avenue, City, Country"
+      text: "THE SSK WORLD CLUB, Pathardi Gaulane Road, Pathardi Nashik."
     },
     {
       icon: <Phone className="h-5 w-5 text-[#FFC857]" />,
-      text: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      text: "+91 77700 01005",
+      link: "tel:+917770001005"
     },
     {
       icon: <Mail className="h-5 w-5 text-[#FFC857]" />,
-      text: "info@elitesportsclub.com",
-      link: "mailto:info@elitesportsclub.com"
+      text: "info@thesskworld.com",
+      link: "mailto:info@thesskworld.com"
     },
     {
       icon: <Clock className="h-5 w-5 text-[#FFC857]" />,

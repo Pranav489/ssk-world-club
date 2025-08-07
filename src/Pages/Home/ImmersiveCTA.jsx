@@ -193,10 +193,10 @@ const ImmersiveCTA = () => {
             </div>
             <h3 className="text-white font-medium mb-2">CALL US</h3>
             <a 
-              href="tel:+15551234567" 
+              href="tel:+917770001005" 
               className="text-white/80 hover:text-[#FFC857] transition-colors"
             >
-              +1 (555) 123-4567
+              +91 77700 01005
             </a>
           </motion.div>
 
@@ -209,8 +209,7 @@ const ImmersiveCTA = () => {
             </div>
             <h3 className="text-white font-medium mb-2">VISIT US</h3>
             <p className="text-white/80">
-              1 Championship Drive<br />
-              Palm Beach, FL 33480
+              THE SSK WORLD CLUB, Pathardi Gaulane Road, Pathardi Nashik.
             </p>
           </motion.div>
 

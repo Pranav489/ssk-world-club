@@ -112,8 +112,9 @@ const HeroSection = () => {
             variants={containerVariants}
             className="flex flex-wrap gap-4"
           >
-            <motion.button
+            <motion.a
               variants={itemVariants}
+              href="/memberships"
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0 8px 20px rgba(255, 200, 87, 0.3)"
@@ -123,9 +124,10 @@ const HeroSection = () => {
             >
               Explore Memberships
               <ArrowRight className="h-5 w-5" />
-            </motion.button>
+            </motion.a>
 
-            <motion.button
+            <motion.a
+              href="/contactus"
               variants={itemVariants}
               whileHover={{
                 backgroundColor: "rgba(255,255,255,0.1)",
@@ -136,7 +138,7 @@ const HeroSection = () => {
             >
               <Phone className="h-5 w-5" />
               Book Private Tour
-            </motion.button>
+            </motion.a>
           </motion.div>
 
           {/* Scrolling Indicator */}
