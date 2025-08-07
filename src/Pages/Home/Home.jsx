@@ -5,9 +5,9 @@ import RoomsPreview from './RoomPreview';
 import DiningExperience from './DiningExperience';
 import LuxuryAmenities from './LuxuryAmenities';
 import MembershipTiers from './MembershipTiers';
+import PartnershipsSection from './PartnershipsSection';
 import SignatureEvents from './SignatureEvents';
 import VideoTestimonials from './VideoTestimonials';
-import PartnershipsSection from './PartnerShipsSection';
 import ImmersiveCTA from './ImmersiveCTA';
 import AboutUsSection from './AboutUs';
 
