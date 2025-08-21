@@ -9,11 +9,11 @@ import ScrollToTop from '../ScrollToTop/ScrollToTop'
 const Layout = () => {
   return (
     <div>
-    {/* <ScrollToTop/> */}
-    <Navbar/>
+    <ScrollToTop/>
+    {/* <Navbar/> */}
     <Outlet/> 
     <WhatsAppPopup/>
-    <Footer/>
+    {/* <Footer/> */}
 
     </div>
   )

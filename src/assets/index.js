@@ -29,7 +29,7 @@ import logo5 from "../assets/images/logo5.png"
 import logo6 from "../assets/images/logo6.png"
 import logo7 from "../assets/images/logo7.png"
 import logo8 from "../assets/images/logo8.png"
-import ssk_club from "../assets/images/SSK World Club.jpg"
+import ssk_club from "../assets/images/SSK-World-Club.jpg"
 
 
 
